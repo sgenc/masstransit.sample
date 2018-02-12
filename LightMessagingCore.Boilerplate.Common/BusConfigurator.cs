@@ -6,6 +6,7 @@ using MassTransit.RabbitMqTransport;
 
 namespace LightMessagingCore.Boilerplate.Common
 {
+	//bus configurator
     public class BusConfigurator
     {
         private IRetryPolicy _retryPolicy;
